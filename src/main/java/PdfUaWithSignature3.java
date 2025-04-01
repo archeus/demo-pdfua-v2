@@ -95,7 +95,7 @@ public class PdfUaWithSignature3  {
 
             // Make ParentTree indirect — required for PAC
             COSObject parentTreeObj = new COSObject(parentTreeDict);
-            document.getDocument().addObject(parentTreeObj);
+//            document.getDocument().addObject(parentTreeObj);
 
             structureTreeRoot.getCOSObject().setItem(COSName.PARENT_TREE, parentTreeObj);
 
